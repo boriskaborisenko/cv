@@ -154,6 +154,17 @@ li{
 
 }
 
+.fixbg{
+    padding:40px 0 40px 0px; border-radius:10px; background: linear-gradient(144deg, rgba(86,58,180,1) 0%, rgba(29,119,253,1) 20%, rgba(252,230,69,1) 70%);
+}
+.fixcol{
+    color:white!important;
+    opacity:0.7;
+}
+
+.fixcol2{
+    color:white!important;
+}
 @media screen and (max-width: 1024px) {
     .wrap{
         width:90%;
@@ -215,5 +226,16 @@ li{
         margin:20px 0;
         padding-bottom:20px;
         border-bottom: 1px solid #eee;
+    }
+
+    .fixbg{
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.23);
+        padding:10px 0 10px 20px; 
+        border-radius:10px; 
+        background: linear-gradient(144deg, rgba(86,58,180,1) 0%, rgba(29,119,253,1) 20%, rgba(252,230,69,1) 70%);
+    }
+    
+    .fixcol2{
+        color:white!important;
     }
   }

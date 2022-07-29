@@ -4,15 +4,16 @@ const getWorks = () => {
     let div = ''
     works.map(w=>{
 
-        const s = {style:'', font:''}
-        w.position == 'Soldier' ? s.style=`padding:40px 0 40px 0px; border-radius:10px; background: linear-gradient(144deg, rgba(86,58,180,1) 0%, rgba(29,119,253,1) 20%, rgba(252,230,69,1) 70%);` : ''
-        w.position == 'Soldier' ? s.font = `color:white;` : ''
+        const s = {style:'', font:'', font2:''}
+        w.position == 'Soldier' ? s.style=`fixbg` : ''
+        w.position == 'Soldier' ? s.font = `fixcol` : ''
+        w.position == 'Soldier' ? s.font2 = `fixcol2` : ''
         
           
-        let html = `<div class="w_s"  style="${s.style}">`
+        let html = `<div class="w_s ${s.style}" >`
         for (let [key, value] of Object.entries(w)) {
             
-            html += `<div class="key" style="${s.font}">${key}</div><div class="val">${value}</div>` 
+            html += `<div class="key ${s.font}">${key}</div><div class="val ${s.font2}">${value}</div>` 
         }
         html += '</div>'
         div +=html
