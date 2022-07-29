@@ -102,11 +102,12 @@ a{
 }
 
 .plate{
+    color:#18237c;
     background:#6768ab;
     box-sizing: border-box;
     padding:50px;
     border-radius: 30px;
-    color:#18237c;
+    
     
 }
 
@@ -195,7 +196,8 @@ li{
         line-height: 1.6rem;
     }
     .plate{
-        background:#DEDEDE;
+        color:#18237c;
+        background:#6768ab;
         box-sizing: border-box;
         padding:40px 30px;
         border-radius: 30px;
