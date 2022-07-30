@@ -140,22 +140,27 @@ li{
 .l_l, .l_r, .l_t{
     display:inline-block;
     vertical-align: middle;
-    line-height: 40px;
+    line-height: 70px;
     text-transform: uppercase;
     font-size: 1.6rem;
     color:#999999;
 }
 
 .l_l, .l_r{
-    width:40px;
-    height:40px;
-    background:#235C9D;
+    width:70px;
+    height:70px;
+    /*background:#235C9D;*/
 }
 
 .l_r{
-    background:#E2C241;
+    /*background:#E2C241;*/
     margin-left:4px;
     margin-right: 20px;
+}
+
+.l_l img{
+    width:auto;
+    height:100%;
 }
 
 .hello{
@@ -175,6 +180,9 @@ li{
 .fixcol2{
     color:white!important;
 }
+
+
+
 @media screen and (max-width: 1024px) {
     .wrap{
         width:90%;
