@@ -102,7 +102,7 @@ a{
 }
 
 .plate{
-    color:#18237c;
+    color:white;
     background:#6768ab;
     box-sizing: border-box;
     padding:50px;
@@ -196,7 +196,7 @@ li{
         line-height: 1.6rem;
     }
     .plate{
-        color:#18237c;
+        color:white;
         background:#6768ab;
         box-sizing: border-box;
         padding:40px 30px;
