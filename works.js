@@ -3,7 +3,7 @@ export const works = [
         "dates":"March 2022 — Now",
         "position":"Soldier",
         "responsibilities":"Protect Ukraine against Russian aggression",
-        "employer":"Ukrainian Army Forces",
+        "employer":"Ukrainian Armed Forces",
         "type of business":"War"
     },
     {
